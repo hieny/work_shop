@@ -1,0 +1,26 @@
+.navbar {
+    background-color: rgb(81,45,168)
+}
+
+.jumbotron {
+    background-color: #9575CD;
+    color: white
+    
+}
+.jumbotron__content{
+    width: 80%;
+    margin:0 auto;
+}
+.link__content{
+    list-style: none
+}
+.footer{
+    background-color: #D1C4E9;
+    color: black
+}
+
+.link_footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
