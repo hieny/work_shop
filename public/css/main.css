@@ -27,3 +27,26 @@
 .breadcrumb-item{
     text-decoration: none;
 }
+.card-header{
+    font-size: 25px;
+    font-weight: bold;
+}
+.thead-dark{
+    background-color: #000;
+    color: #FFF;
+}
+
+.title{
+    font-weight: bold;
+}
+.bg-gray{
+    background-color: #F2F2F2;
+}
+.card-blockquote{
+    font-size: 17px;
+    color: gray;
+}
+.logo{
+    height:30px;
+    width:41px;
+}
