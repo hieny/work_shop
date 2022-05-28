@@ -58,3 +58,17 @@
     padding:10px;
     margin: 2rem 0;
 }
+.carousel{
+    background-color:#512DA8;
+}
+
+.carousel-item{
+    height:900px;
+   
+}
+
+.carousel-item img{
+    width:100%;
+    min-height: 100%;
+    margin: 0 auto;
+}
