@@ -34,7 +34,7 @@
     
   </head>
 
-  <body>
+  <body >
     <div id="root"></div>
     <header>
       <nav class="navbar navbar-expand-sm navbar-dark">
@@ -75,16 +75,18 @@
             </li>
           </ul>
           <!-- Button trigger modal -->
+          <!-- data-target="#modelId"
+              data-toggle="modal"  -->
+          
           <a
             type="button"
-            data-toggle="modal"
-            data-target="#modelId"
-            class="text-white"
+            class="text-white button-login"
           >
             <i class="fa fa-external-link-alt"></i> Login
           </a>
 
           <!-- Modal -->
+          <!-- class="modal fade" -->
           <div
             class="modal fade"
             id="modelId"
@@ -97,10 +99,11 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title">Login</h5>
+                  <!-- data-dismiss="modal" -->
                   <button
                     type="button"
                     class="close"
-                    data-dismiss="modal"
+                    
                     aria-label="Close"
                   >
                     <span aria-hidden="true">&times;</span>
@@ -148,8 +151,8 @@
                   <div class="d-flex justify-content-end">
                     <button
                     type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
+                    class="btn btn-secondary closebtn"
+                    
                   >
                     Close
                   </button>
@@ -180,19 +183,20 @@
               <div
                 class="col-md-4 d-flex align-items-center "
               >
-                <button
-                  type="button"
-                  class="btn btn-warning"
-                  data-placement="top"
+              <!-- data-placement="top"
                   data-target="#modelId1"
                   title="Call us at +852 12345678"
-                  data-toggle="modal"
+                  data-toggle="modal" -->
+                <button
+                  type="button"
+                  class="btn btn-warning btnReverve"
+                  title="Call us at +852 12345678"
                 >
                   Reverve Table
                 </button>
 
                 <div
-                  class="modal fade text-dark"
+                  class="modal fade text-dark "
                   id="modelId1"
                   tabindex="-1"
                   role="dialog"
@@ -206,7 +210,8 @@
                         <button
                           type="button"
                           class="close"
-                          data-dismiss="modal"
+                          id="closeRe"
+                         
                           aria-label="Close"
                         >
                           <span aria-hidden="true">&times;</span>
@@ -318,8 +323,9 @@
                           </div>
                           <button
                           type="button"
-                          class="btn btn-secondary"
-                          data-dismiss="modal"
+                          class="btn btn-secondary closebtnRe"
+                          
+                          
                         >
                           Cancel
                         </button>
@@ -599,5 +605,6 @@
         });
       })
     </script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
