@@ -1,84 +1,95 @@
+.modal-header {
+  background-color: #512da8;
+}
+
+.modal-body {
+  background-color: #9575cd;
+}
+
 .navbar {
-    background-color: rgb(81,45,168)
+  background-color: #512da8;
 }
 
 .jumbotron {
-    background-color: #9575CD !important;
-    color: white !important;
-    
-}
-.jumbotron__content{
-    width: 80%;
-    margin:0 auto;
-}
-.link__content{
-    list-style: none
-}
-.footer{
-    background-color: #D1C4E9;
-    color: black
+  background-color: #9575cd !important;
+  color: white !important;
 }
 
-.link_footer{
-    margin-top: 100px;
-    text-align: center;
+.jumbotron__content {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.breadcrumb-item{
-    text-decoration: none;
-}
-.card-header{
-    font-size: 25px;
-    font-weight: bold;
-}
-.thead-dark{
-    background-color: #000;
-    color: #FFF;
+.link__content {
+  list-style: none;
 }
 
-.title{
-    font-weight: bold;
-}
-.bg-gray{
-    background-color: #F2F2F2;
-}
-.card-blockquote{
-    font-size: 17px;
-    color: gray;
-}
-.logo{
-    height:30px;
-    width:41px;
+.footer {
+  background-color: #d1c4e9;
+  color: black;
 }
 
-.tab-content{
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding:10px;
-    margin: 2rem 0;
-}
-.carousel{
-    background-color:#512DA8;
+.link_footer {
+  margin-top: 100px;
+  text-align: center;
 }
 
-.carousel-item{
-    height:900px;
-   
+.breadcrumb-item {
+  text-decoration: none;
 }
 
-.carousel-item img{
-    width:100%;
-    min-height: 100%;
-    margin: 0 auto;
+.card-header {
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.modal-body{
-    background-color: #9575cd;
-    color: #fff;
+.thead-dark {
+  background-color: #000;
+  color: #fff;
 }
 
-.modal-header {
-    background-color: rgb(81, 45, 168);
-    color: #fff;
+.title {
+  font-weight: bold;
 }
+
+.bg-gray {
+  background-color: #f2f2f2;
+}
+
+.card-blockquote {
+  font-size: 17px;
+  color: gray;
+}
+
+.logo {
+  height: 30px;
+  width: 41px;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  margin: 2rem 0;
+}
+
+.carousel {
+  background-color: #512da8;
+}
+
+.carousel-item {
+  height: 900px;
+}
+
+.carousel-item img {
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+#carouselButton {
+  margin: auto;
+  z-index: 1;
+}
+/*# sourceMappingURL=main.css.map */

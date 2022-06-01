@@ -1,0 +1,94 @@
+@mixin background-header {
+    background-color: rgb(81, 45, 168);
+}
+
+@mixin background-body {
+    background-color: #9575cd;
+    // background-color: red;
+}
+
+.modal-header {
+    @include background-header;
+}
+
+.modal-body {
+    @include background-body;
+}
+
+.navbar {
+    @include background-header;
+}
+
+.jumbotron {
+    background-color: #9575cd !important;
+    color: white !important;
+}
+.jumbotron__content {
+    width: 80%;
+    margin: 0 auto;
+}
+.link__content {
+    list-style: none;
+}
+.footer {
+    background-color: #d1c4e9;
+    color: black;
+}
+
+.link_footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.breadcrumb-item {
+    text-decoration: none;
+}
+.card-header {
+    font-size: 25px;
+    font-weight: bold;
+}
+.thead-dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.title {
+    font-weight: bold;
+}
+.bg-gray {
+    background-color: #f2f2f2;
+}
+.card-blockquote {
+    font-size: 17px;
+    color: gray;
+}
+.logo {
+    height: 30px;
+    width: 41px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin: 2rem 0;
+}
+.carousel {
+    background-color: #512da8;
+}
+
+.carousel-item {
+    height: 900px;
+}
+
+.carousel-item img {
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+#carouselButton {
+    margin: auto;
+    z-index: 1;
+}
